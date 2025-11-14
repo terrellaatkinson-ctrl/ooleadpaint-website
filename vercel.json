@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "public": true,
   "builds": [
     { "src": "AI_BUILD_PROMPT_SITE/**/*", "use": "@vercel/static" }
   ],
