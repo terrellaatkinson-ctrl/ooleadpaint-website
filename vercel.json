@@ -1,9 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "AI_BUILD_PROMPT_SITE/**/*", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "AI_BUILD_PROMPT_SITE/$1" }
-  ]
+  "buildCommand": null,
+  "outputDirectory": null,
+  "installCommand": null,
+  "framework": null
 }
